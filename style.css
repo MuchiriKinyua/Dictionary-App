@@ -148,3 +148,11 @@ ul .word i {
     margin-right: 5px;
     text-decoration: underline;
 }
+.word i {
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.word i[style*="color: #ccc"] {
+    cursor: not-allowed;
+}
