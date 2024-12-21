@@ -2,7 +2,7 @@
 
 ![Screenshot from 2024-12-21 14-58-31](https://github.com/user-attachments/assets/39df9bb7-961b-47bb-8755-d52a0b3207a0) </br>
 
-# The English Dictionary App is a lightweight and user-friendly web application designed to provide users with the following functionalities: </br>
+The English Dictionary App is a lightweight and user-friendly web application designed to provide users with the following functionalities: </br>
 
     Search for a word to find its meaning, example usage, pronunciation, and synonyms. </br>
     Audio pronunciation for supported words. </br>
