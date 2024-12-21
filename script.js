@@ -7,6 +7,12 @@ function data(result, word){
         infoText.innerHTML = `Can't find the meaning of <span>"${word}"</span>. Please, try to search for another word.`;
     }else{
         wrapper.classList.add("active");
+        let definitions = result[0].meanings[0].definitions[0],
+        phonetics = `${result[0].meanings[0].partOfSpeech} /${result[0].phonetics[0].text}/`;
+        document.querySelector(".word p").innerText = result[0].word;
+        document.querySelector(".word span").innerText = phonetics;
+        document.querySelector(".meaning span").innerText = definitions.definition;
+        document.querySelector(".example span").innerText = definitions.example;
     }
 }
 
